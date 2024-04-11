@@ -1,0 +1,65 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+:root {font-size: 62.5%;}
+
+header h1 {
+  font-size: 5.8rem;
+    font-weight: 900;
+  line-height: 7.3rem;
+color: rgba(2, 121, 157, 1);
+;}
+
+header { font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 4.0rem;
+  color: rgba(225, 225, 230, 1);
+  margin-bottom: 6.3rem;
+}
+
+body { font-family: 'Mulish', sans-serif;
+  background: var(--Platform-Aliases-Background, #121214);
+}
+
+#page {  max-width: fit-content;
+  padding: 7.0rem;
+  
+}
+
+ #galaxies > div {  
+color: rgba(196, 196, 204, 1);
+
+border-radius: 8px;
+border: 2px solid var(--Platform-Aliases-Shape-terciria, #323238);
+background: var(--Platform-Aliases-Shape-principal, #202024);
+width: 36.6rem;
+overflow: hidden;
+
+
+}
+
+p { font-size: 1.90rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  padding: 0 3.2rem 3.2rem;
+  color: #C4C4CC;
+padding-top: 2.4rem;}
+
+h2 { font-size: 3.5rem;
+   font-weight: 900;
+  line-height: 4.4rem;
+padding-top: 2.4rem;
+padding-left: 3.2rem;
+color: #E1E1E6;}
+
+  #galaxies {display: grid;
+  grid-template-columns:repeat(3, 1fr);
+place-content: center;
+column-gap: 6.0rem;
+row-gap: 4.4rem;
+ }
+
+
+
+
